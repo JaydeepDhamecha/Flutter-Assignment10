@@ -1,0 +1,1 @@
+import 'package:flutter/material.dart';class CommonAppBar extends AppBar {  CommonAppBar({    Key? key,    required String title,    TabBar? tabbar  }) : super(          key: key,          title: Text(title),          centerTitle: true,          backgroundColor: Colors.indigo.shade700,    bottom: tabbar        );}
